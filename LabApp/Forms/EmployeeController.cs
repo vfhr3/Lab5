@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Forms
 {
-    public partial class EmoployeeController : Form
+    public partial class EmployeeController : Form
     {
-        public EmoployeeController()
+        public EmployeeController()
         {
             InitializeComponent();
         }

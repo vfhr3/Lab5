@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1.Forms
 {
-    partial class EmoployeeController
+    partial class EmployeeController
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.Forms
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "EmoployeeController";
+            this.Text = "EmployeeController";
         }
 
         #endregion
