@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1.Models
 {
-    internal class Certificate
+    p   ublic class Certificate
     {
+        public int owner_id;
+        public bool isApproved;
+        public string data;
+        public int id;
+
+        public void Approve()
+        {
+            isApproved = true;
+        }
+        public void Deny()
+        {
+            isApproved = false;
+        }
     }
 }

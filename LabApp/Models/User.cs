@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1.Models
 {
-    internal class User
+    public class User
     {
+        public int Id;
+        public string Name;
+        public string Username;
+        public string Password;
+        public string Role;
     }
 }
