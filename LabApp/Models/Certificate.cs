@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1.Models
 {
-    p   ublic class Certificate
+    public class Certificate
     {
         public int owner_id;
         public bool isApproved;
